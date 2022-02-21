@@ -26,7 +26,7 @@ public class Main {
             i++;
         }
         // one
-        System.out.println("\nOne For");
+        System.out.println("\nOne For:");
         for (i=200; i<=250; i++){
             if ((i>=200 && i<=210)||(i>=220 && i<=250)){
                 System.out.print(i+" ");
@@ -35,7 +35,7 @@ public class Main {
                 }
             }
         }
-        System.out.println("\nOne While");
+        System.out.println("\nOne While:");
         i=200;
         while (i<=250){
             if ((i>=200 && i<=210)||(i>=220 && i<=250)){

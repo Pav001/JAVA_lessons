@@ -29,26 +29,21 @@
             // one
             System.out.println("\nOne For:");
             for (i=200; i<=250; i++){
-                if ((i>=200 && i<=210)||(i>=220 && i<=250)){
-                    System.out.print(i+" ");
+                 System.out.print(i+" ");
                     if (i==210){
                         i=210+9;
                         System.out.println();
                     }
                 }
-            }
             System.out.println("\nOne While:");
             i=200;
             while (i<=250){
-                if ((i>=200 && i<=210)||(i>=220 && i<=250)){
-                    System.out.print(i+" ");
+               System.out.print(i+" ");
                     if (i==210) {
                         i=210+9;
                         System.out.println();
-                    }
+                    } i+=1;
                 }
-                i+=1;
-            }
         }
     }
 

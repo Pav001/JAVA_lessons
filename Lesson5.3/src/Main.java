@@ -32,6 +32,7 @@
                 if ((i>=200 && i<=210)||(i>=220 && i<=250)){
                     System.out.print(i+" ");
                     if (i==210){
+                        i=210+9;
                         System.out.println();
                     }
                 }
@@ -42,6 +43,7 @@
                 if ((i>=200 && i<=210)||(i>=220 && i<=250)){
                     System.out.print(i+" ");
                     if (i==210) {
+                        i=210+9;
                         System.out.println();
                     }
                 }
